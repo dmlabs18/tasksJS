@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Cookies</title>
+	<meta name="description" content="Cookies">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://cdn.rawgit.com/chrisveness/crypto/4e93a4d/sha256.js"></script>
+</head>
+<body>
+	<img src="https://s15.postimg.cc/m3oqx8ctn/js_cup_1.png" width="150">
+	<div class="wrapper">
+		<h1>Cookies</h1>
+		<p>
+			Создать простую страничку, где пользователь вводит данные о себе Введенные данные должны сохраняться в куки-файл. При повторном входе с этого же компьютера на эту же страничку данные должны загружаться из куки-файла и страничка должна быть заполнена
+		</p>
+		<label for="inputName">Enter your name:</label>
+		<input type="text" id="login" placeholder="name">
+		<label for="inputPass">Enter your password:</label>
+		<input type="password" id="pass" placeholder="password">
+		<label for="inputEmail">Enter your email:</label>
+		<input type="email" id="mail" placeholder="email">
+		<button type="button" name="submitForms" class="button" id="submitEmail" onclick="recordCookies()">Send</button>
+		<div id="textKey"></div>
+	</div>
+		<script src="script.js"></script>
+</body>
+</html>

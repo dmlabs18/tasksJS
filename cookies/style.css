@@ -1,0 +1,128 @@
+body,
+html {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+body {
+	background-color: rgba(17, 34, 51, .4);
+	font: 14px Arial, Helvetica, sans-serif;
+	line-height: 1.4
+}
+
+.wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	padding: 0 20px
+}
+
+*, :after, :before {
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit
+}
+
+a {
+	text-decoration: none;
+	color: #fff
+}
+
+a:active,
+a:hover,
+a:visited {
+	outline-color: #fff
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #baf300;
+}
+
+.logo {
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+	color: #333;
+	font-size: 12px
+}
+
+p {
+	text-align: justify;
+}
+
+label {
+	display: block;
+	color: #baf300;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+input {
+	display: block;
+	max-width: 200px;
+	padding: 5px 10px;
+	margin: 0 0 15px;
+	border-radius: 6px;
+}
+
+.button {
+	display: block;
+	max-width: 200px;
+	height: auto;
+	background-color: #c7ea46;
+	text-align: center;
+	font-weight: bold;
+	padding: 5px;
+	border-radius: 6px;
+	text-transform: uppercase;
+	cursor: pointer;
+	-webkit-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out
+}
+
+.button:hover {
+	background-color: #93b515
+}
+
+input:active::-webkit-input-placeholder,
+input:focus::-webkit-input-placeholder {
+	opacity: 0;
+	-webkit-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out
+}
+
+input:active::-moz-placeholder,
+input:focus::-moz-placeholder {
+	opacity: 0;
+	-webkit-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out
+}
+
+input:active:-moz-placeholder,
+input:focus:-moz-placeholder {
+	opacity: 0;
+	-webkit-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out
+}
+
+input:active:-ms-input-placeholder,
+input:focus:-ms-input-placeholder {
+	opacity: 0;
+	-webkit-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out
+}
