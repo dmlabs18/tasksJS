@@ -1,0 +1,123 @@
+{
+  "lastUpdate": {
+    "data": "12.08.2018",
+    "time": "1:51:21"
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "Владимир",
+      "lastName": "Кононенко",
+      "email": "vladimir.kononenko@gmail.com",
+      "photoURL": "https://cdn.pixabay.com/photo/2016/03/31/19/58/avatar-1295429_960_720.png"
+    },
+    {
+      "id": 2,
+      "name": "Никита",
+      "lastName": "Терещенко",
+      "email": "nikita.tereshenko@gmail.com",
+      "photoURL": "https://i.pinimg.com/originals/3d/47/4f/3d474f82ff71595e8081f9a120892ae8.gif"
+    },
+    {
+      "id": 3,
+      "name": "Tim",
+      "lastName": "Wagner",
+      "email": "timVagner@gmail.com",
+      "photoURL": "https://vignette.wikia.nocookie.net/yogscast/images/8/8a/Avatar_Turps_2015.jpg"
+    },
+    {
+      "id": 4,
+      "name": "James",
+      "lastName": "Bond",
+      "email": "jamesBond@gmail.com",
+      "photoURL": "http://static.tumblr.com/6ae44fd5ff8643cfd516d2dfd186bef0/1jppqlm/1SGnasfsh/tumblr_static_15kq4ibxvscgw000wcgk0wo0s.png"
+    },
+    {
+      "name": "john",
+      "lastName": "snow",
+      "passInput": "7e7d8c699ee576ce17f16a12a4eae22b8b01a4e64ce15128c796e0a96c9cb704",
+      "email": "john@winter.fell",
+      "photoURL": "https://pbs.twimg.com/profile_images/3456602315/aad436e6fab77ef4098c7a5b86cac8e3.jpeg",
+      "id": 5
+    }
+  ],
+  "posts": [
+    {
+      "userId": 2,
+      "date": "05.08.2018",
+      "time": "10:30:15",
+      "id": 2,
+      "title": "Автопробег",
+      "body": "Завтра планируется автопробег. Участвовать могут все желающие"
+    },
+    {
+      "userId": 2,
+      "date": "07.08.2018",
+      "time": "11:10:01",
+      "title": "*Бетономешалка",
+      "body": "Это жесть. Собираюсь купить. Лучше, чем АК!",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "date": "04.05.2018",
+      "time": "13:30:15",
+      "title": "JS",
+      "body": "Look here - there are some samples"
+    },
+    {
+      "userId": 3,
+      "date": "15.07.2018",
+      "time": "08:34:15",
+      "title": "XMLHttpRequest",
+      "body": "Method POST",
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "date": "03.02.2018",
+      "time": "07:32:15",
+      "title": "XMLHttpRequest",
+      "body": "Method POST",
+      "id": 9
+    },
+    {
+      "userId": 2,
+      "date": "05.01.2018",
+      "time": "09:23:15",
+      "title": "XMLHttpRequest",
+      "body": "Method POST",
+      "id": 10
+    },
+    {
+      "date": "09.08.2018",
+      "time": "21:48:00",
+      "userId": 4,
+      "body": "hi",
+      "id": 11
+    },
+    {
+      "date": "09.08.2018",
+      "time": "21:48:08",
+      "userId": 4,
+      "body": "bay",
+      "id": 12
+    },
+    {
+      "date": "12.08.2018",
+      "time": "1:51:21",
+      "userId": 5,
+      "body": "hi, bro!",
+      "id": 13
+    }
+  ],
+  "comments": [
+    {
+      "postId": 2,
+      "id": 3,
+      "userId": 2,
+      "body": "Ударим автопробегом по бездорожью и разгильдяйству!"
+    }
+  ]
+}

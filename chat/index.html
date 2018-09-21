@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Chat</title>
+	<meta name="description" content="Chat">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://cdn.rawgit.com/chrisveness/crypto/4e93a4d/sha256.js"></script>
+</head>
+<body>
+	<img src="https://s15.postimg.cc/m3oqx8ctn/js_cup_1.png" width="150">
+	<div class="wrapper">
+		<h1>Chat</h1>
+		<p>
+			Доработать фейковый чат на  JSON сервере
+			с возможностью регистрации нового юзера
+		</p>
+		<label for="inputName">Enter your name:</label>
+		<input type="text" id="login" placeholder="first name">
+		<label for="inputLastName">Enter your last name:</label>
+		<input type="text" id="lastName" placeholder="last name">
+		<label for="inputPass">Enter your password:</label>
+		<input type="password" id="pass" placeholder="password">
+		<label for="inputEmail">Enter your email:</label>
+		<input type="email" id="mail" placeholder="email">
+		<label for="inputPhoto">Enter your photo in the network:</label>
+		<input type="text" id="photoWeb" placeholder="photo in the network">
+		<button type="button" name="submitForms" class="button" id="submitEmail" onclick="registerUser ()">Send</button>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
