@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>SHA registration form</title>
+	<meta name="description" content="registration form">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="bundle.min.css">
+	<script src="https://cdn.rawgit.com/chrisveness/crypto/4e93a4d/sha256.js"></script>
+</head>
+<body>
+	<img src="https://s15.postimg.cc/m3oqx8ctn/js_cup_1.png" width="150">
+	<div class="wrapper">
+		<form action="#!" name="form" class="chek-in" id="regForm">
+			<fieldset>
+				<legend>Registration / Identify</legend>
+				<div class="form-group">
+					<div>
+						<label for="login">Name:</label>
+						<input type="text" name="name" id="login">
+					</div>
+					<div>
+						<label for="password" class="control-label">Password:</label>
+						<input type="password" id="password" name="password">
+					</div>
+					<div>
+						<label for="password" class="control-label">Avatar link:</label>
+						<input type="text" id="avatar" name="avatar" disabled>
+					</div>
+					<div class="form-group">
+						<a name="submitForms" class="button" id="submitForm" onclick="regForm()">Click Me</a>
+					</div>
+				</div>
+			</fieldset>
+		</form>
+		<form action="#!" name="form" class="chek-email" id="emailForm">
+			<fieldset>
+				<legend>E-mail</legend>
+				<div class="form-group">
+					<div>
+						<label for="inputEmail" class="control-label">Enter your E-mail</label>
+						<input type="email" name="email" id="inputEmail">
+					</div>
+					<div class="form-group">
+						<a name="submitForms" class="button" id="submitEmail" onclick="changeForm()">Click Me</a>
+					</div>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+	<script src="common.js"></script>
+</body>
+</html>

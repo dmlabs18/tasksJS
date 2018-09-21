@@ -1,0 +1,20 @@
+[
+	{
+		"key": "a42caea01469a4687fb8713dc1748a0d14adec7f307371f82382812142ee2c58",
+		"name": "Иван",
+		"email": "ivan.petrenko@gmail.com",
+		"avatar": "https://imgur.com/I80W1Q0.png"
+	},
+	{
+		"key": "b7d20c2dc6cb3e4bcde90f80598e369ab3d1841d799039dfd06f86221af10fd8",
+		"name": "Mary",
+		"email": "mary789@gmail.com",
+		"avatar": "https://raw.githubusercontent.com/fangpenlin/avataaars/HEAD/avataaars-example.png"
+	},
+	{
+		"key": "c02d8e6211ef7dc5af42085cbb323a122b76905ac098467ea1f85465ec14429d",
+		"name": "John",
+		"email": "john@gmail.com",
+		"avatar": "https://vignette.wikia.nocookie.net/peaky-blinders/images/9/93/Tommyportrait2.png/revision/latest/scale-to-width-down/310"
+	}
+]
